@@ -8,4 +8,5 @@ This is a repository of self-taught practices with deep learning.
 Keras Tutorial
 ======
 ②test_example_2classes.py ：P20-binary class test example
+②test_example_10classes.py ：P21-multi-classes test example
 ----------------
