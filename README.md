@@ -17,7 +17,7 @@ http://keras-cn.readthedocs.io/en/latest/
 ④simple_autoencoder.py ：简单自动编码器：全连接的自动编码器
 ---
 ⑤sparse autoencoder.py ：稀疏自动编码器：在隐层单元（编码层）加上稀疏性约束，得到更为紧凑的表达，只有一小部分神经元会被激活，
-                         模型过拟合的风险降低。
-
+                         模型过拟合的风险降低。
+---
  dataset：mnist.npz
 ----------------
