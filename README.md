@@ -11,11 +11,11 @@ Keras中文手册
 http://keras-cn.readthedocs.io/en/latest/
 
 ②test_example_2classes.py ：P20-binary class test example
---
+--------------------------
 ③test_example_10classes.py ：P21-multi-classes test example
----
+---------------------------
 ④simple_autoencoder.py ：简单自动编码器：全连接的自动编码器
-==
+-----------------------
 ⑤sparse autoencoder.py ：稀疏自动编码器：在隐层单元（编码层）加上稀疏性约束，得到更为紧凑的表达，只有一小部分神经元会被激活，
                          模型过拟合的风险降低。
 
