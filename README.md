@@ -7,8 +7,11 @@ This is a repository of self-taught practices with deep learning.
 ---------------
 Keras Tutorial
 ======
+Keras中文手册
 http://keras-cn.readthedocs.io/en/latest/
 
 ②test_example_2classes.py ：P20-binary class test example
 ③test_example_10classes.py ：P21-multi-classes test example
+④simple_autoencoder.py ：简单自动编码器：全连接的自动编码器
+ dataset：mnist.npz
 ----------------
