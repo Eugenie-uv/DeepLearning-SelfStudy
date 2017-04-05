@@ -20,7 +20,7 @@ http://keras-cn.readthedocs.io/en/latest/
 ---
 ⑥deep autoencoder.py：没有安装tesorflow，中间过程没有进行可视化
 ---
-⑥denosing autoencoder.py：降噪自动编码器：图片加噪→降噪
+⑦denosing autoencoder.py：降噪自动编码器：图片加噪→降噪
 ---
  dataset：mnist.npz
 ----------------
