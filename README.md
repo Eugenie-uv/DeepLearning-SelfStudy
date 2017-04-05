@@ -18,5 +18,9 @@ http://keras-cn.readthedocs.io/en/latest/
 ---
 ⑤sparse autoencoder.py ：稀疏自动编码器：在隐层单元（编码层）加上稀疏性约束，得到更为紧凑的表达，只有一小部分神经元会被激活，模型过拟合的风险降低。
 ---
+⑥deep autoencoder.py：没有安装tesorflow，中间过程没有进行可视化
+---
+⑥denosing autoencoder.py：降噪自动编码器：图片加噪→降噪
+---
  dataset：mnist.npz
 ----------------
