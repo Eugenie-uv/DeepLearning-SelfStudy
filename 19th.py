@@ -2,7 +2,7 @@
 """
 Created on Thu Oct 19 15:14:01 2017
 解读十九大
-@author: admin
+@author: Euniceu
 """
 
 # jieba分词
