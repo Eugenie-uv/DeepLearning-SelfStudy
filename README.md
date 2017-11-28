@@ -24,3 +24,4 @@ http://keras-cn.readthedocs.io/en/latest/
 ---
  dataset：mnist.npz
 ----------------
+《TensorFlow实战Google深度学习框架》自习代码
