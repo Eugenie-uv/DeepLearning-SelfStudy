@@ -52,7 +52,7 @@ def evaluate(mnist):
                     saver.restore(sess, ckpt.model_checkpoint_path)
 
                     # 通过文件名得到模型保存时迭代的轮数
-                    global_step = ckpt.model_checkpoint_path.split('/')[-1],split('-')[-1]
+                    global_step = ckpt.model_checkpoint_path.split('/')[-1].split('-')[-1]
 
                     accureacy_score = sess.run(accuracy, feed_dict=validation_feed)
                     print("After %s training step(s), validation accuracy = % g" %
