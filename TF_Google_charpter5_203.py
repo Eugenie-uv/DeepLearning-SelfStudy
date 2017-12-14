@@ -25,7 +25,7 @@ import TF_Google_charpter5_103 as fwpropagation
 Batch_size = 100
 Learning_rate_base = 0.8
 Learning_rate_decay = 0.99
-Regularaztion_rate = 0.0001
+uRegularaztion_rate = 0.0001
 Traing_steps = 30000
 Moving_average_decay = 0.99
 
@@ -70,7 +70,7 @@ def train(mnist):
     saver = tf.train.Saver()
     # 运行图
     with tf.Session() as sess:
-        tf.global_variables_initializer()
+        tf.global_variables_initializer().run()
         for i in range(Traing_steps):
             xs, ys = mnist.train.next_batch(Batch_size)
             _, loss_value, step = sess.run([train_op, loss, global_step],
